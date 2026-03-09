@@ -28,3 +28,4 @@ lstm_build.py
 Dockerfile*
 docker-compose*
 .dockerignore
+README.md
