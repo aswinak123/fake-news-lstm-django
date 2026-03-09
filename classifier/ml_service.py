@@ -121,7 +121,7 @@ class LSTMClassifierService:
             label = self._labels[index] if index < len(self._labels) else str(index)
         else:
             label = str(index)
-
+        confidence = confidence*100
         return PredictionResult(label=label, confidence=confidence)
 
 
