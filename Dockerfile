@@ -4,7 +4,7 @@ FROM python:3.12-slim
 # Set the working directory inside the container
 WORKDIR /app
 
-# Set environment variables to prevent Python from writing pyc files to disc 
+# Set up environment variables to prevent Python from writing pyc files to disc 
 # and to ensure stdout and stderr are unbuffered
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
