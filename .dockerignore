@@ -1,0 +1,30 @@
+# Ignore common version control directories and files
+.git
+.gitignore
+
+# Ignore local environment files and sensitive data
+.env
+.env.*
+*.key
+*.pem
+passphrase.txt
+
+# Ignore OS-specific temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore common dependency and build output folders (language-specific examples)
+node_modules
+/venv
+/ml_assets/preprocessed
+/ml_assets/dataset
+__pycache__
+dist
+build
+*.log
+lstm_build.py
+
+# Ignore Docker-related files not needed in the final image
+Dockerfile*
+docker-compose*
+.dockerignore
