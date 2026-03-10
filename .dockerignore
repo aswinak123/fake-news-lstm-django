@@ -22,7 +22,7 @@ __pycache__
 dist
 build
 *.log
-lstm_build.py
+lstm_build.ipynb
 
 # Ignore Docker-related files not needed in the final image
 Dockerfile*
